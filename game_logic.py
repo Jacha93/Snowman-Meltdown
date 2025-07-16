@@ -43,9 +43,6 @@ def play_game():
     mistakes = 0
     max_mistakes = len(STAGES) - 1  # Maximum allowed mistakes before game over
 
-    print("\n" + "=" * 50)
-    print("WELCOME TO SNOWMAN MELTDOWN".center(50))
-    print("=" * 50)
     print(f"\nThe word has {len(secret_word)} letters.")
     print(f"You can make {max_mistakes} mistakes before the snowman melts!\n")
     print("-" * 50 + "\n")
